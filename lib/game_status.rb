@@ -34,8 +34,7 @@ else
 end
 end
 def winner(board)
-  puts won?(board[0])
-if board[won?(board)[0]] == 'X'
+if won?(board)[0] == 'X'
   puts 'X'
 elsif board[won?(board)[0]] == 'O'
   puts 'O'
