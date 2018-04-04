@@ -34,5 +34,7 @@ else
 end
 end
 def winner(board)
+if won?(board) !== false
 board[won?(board)[0]]
+end
 end
