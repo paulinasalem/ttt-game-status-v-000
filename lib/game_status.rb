@@ -36,7 +36,7 @@ end
 def winner(board)
 if won?(board)[0] == 'X'
   puts 'X'
-elsif board[won?(board)[0]] == 'O'
+elsif won?(board)[0] == 'O'
   puts 'O'
 end
 end
