@@ -34,9 +34,6 @@ else
 end
 end
 def winner(board)
-if won?(board)[0] == 'X'
-  puts 'X'
-elsif won?(board)[0] == 'O'
-  puts 'O'
+won?(board)[0]
 end
 end
